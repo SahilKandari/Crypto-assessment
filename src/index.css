@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  position: fixed;
+  top: 80px;
+  left: -100%;
+}
+
+.sidebar.open {
+  left: 0;
+}
